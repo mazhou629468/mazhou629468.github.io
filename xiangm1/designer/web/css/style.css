@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#b_g{
+	width: 1500px;
+	height: 8076px;
+	margin: auto;
+}
+#first{
+	widows: 1500px;
+	height: 780px;
+	background: #271a12;
+	margin: auto;
+}
+#nav{
+	width: 1000px;
+	height: 114px;
+	line-height: 114px;
+	border-bottom: 2px solid #948d89;
+	margin: auto;
+}
+#b_g #first #nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+#b_g #first #nav ul li{
+	float: left;
+	font-size:20px;
+	color: white;
+	width:80px;
+	height: 33px;
+	line-height: 33px;
+	margin-top: 40px;
+}
+#b_g #first #nav ul .logo{
+	width:251px;
+	height: 100px;
+	position: relative;
+	top:-26px;
+	left: 5px;
+	background: url(../img/logo.png);
+}
+#b_g #first #nav ul .index,#b_g #first #nav ul .eg,#b_g #first #nav ul .active,#b_g #first #nav ul .design,#b_g #first #nav ul .product,#b_g #first #nav ul .about{
+	width: 34px;
+	height: 33px;
+	margin-left:5px;
+	border-radius: 50px;
+}
+#b_g #first #nav ul .eg:hover{
+	background-color: rgb(255,129,0);
+}
+#b_g #first #nav ul .active:hover{
+	background-color: rgb(255,129,0);
+}
+#b_g #first #nav ul .design:hover{
+	background-color: rgb(255,129,0);
+}
+#b_g #first #nav ul .product:hover{
+	background-color: rgb(255,129,0);
+}
+#b_g #first #nav ul .about:hover{
+	background-color: rgb(255,129,0);
+}
+#b_g #first #nav ul .index{
+	background: rgb(255,129,0);
+	background-image:url(../img/index.png);
+}
+#b_g #first #nav ul .eg{
+	background:url(../img/eg.png);
+}
+#b_g #first #nav ul .design{
+	background:url(../img/design.png);
+}
+#b_g #first #nav ul .active{
+	background:url(../img/active.png);
+}
+#b_g #first #nav ul .product{
+	background:url(../img/product.png);
+}
+#b_g #first #nav ul .about{
+	background:url(../img/about.png);
+}
+#b_g .bottom{
+	height:380px;
+	width: 1000px;
+	margin: auto;
+	background: #1e1c1c;
+}
+#b_g .bottom .bt_con{
+	height: 340px;
+	width: 100%;
+	overflow: hidden;
+}
+#b_g .bottom .bt_con .left{
+	height: 80%;
+	width: 380px;
+	margin-top: 50px;
+	float: left;
+}
+#b_g .bottom .bt_con .left ul{
+	list-style: none;
+	float: left;
+	height: auto;
+	width: auto;
+	text-align: center;
+	color: white;
+}
+#b_g .bottom .bt_con .left .length{
+	margin-left: 160px;
+	margin-top: 11px;
+}
+#b_g .bottom .bt_con .left .top{
+	margin-top: 50px;
+}
+#b_g .bottom .bt_con .left ul li{
+	width: 100px;
+	margin: auto;
+	line-height: 30px;
+	text-align: left;
+}
+#b_g .bottom .bt_con .left ul .title{
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: "微软雅黑";
+}
+#b_g  .bottom .bt_con .left ul li a{
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+#b_g .bottom .bt_con .right{
+	margin-top: 40px;
+	float: left;
+	height: 80%;
+	width: 620px;
+}
+#b_g .bottom .bt_con .right ul{
+	height: auto;
+	width:115px;
+	float: left;
+	color: white;
+	list-style: none;
+	font-size: 10px;
+	margin-top: 18px;
+}
+#b_g  .bottom .bt_con .right li{
+	line-height: 30px;
+	text-align: center;
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+#b_g .bottom .bt_con .right .t_p1{
+	font-size: 16px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#b_g  .bottom .bt_con .right .t_p1 .inner{
+	height: 20px;
+	width: 20px;
+	margin: auto;
+	border-radius: 50%;
+	background: black;
+	display: inline-block;
+}
+#b_g  .bottom .bt_con .right .t_p1 .p1{
+	background: url(../img/about.png);
+	background-size: 100% 100%;
+}
+#b_g  .bottom .bt_con .right .t_p1 .p2{
+	background: url(../img/design.png);
+	background-size: 100% 100%;
+}
+#b_g .bottom .bt_con .right .t_p1 .p3{
+	background: url(../img/eg.png);
+	background-size: 100% 100%;
+}
+#b_g .bottom .bt_con .right .t_p1 .p4{
+	background: url(../img/product.png);
+	background-size: 100% 100%;
+}
+#b_g  .bottom .bt_con .right .t_p1 .outer{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background: black;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top:2px;
+}
+#b_g  .bottom .bt_con .right .t_p1 span{
+	height: 40px;
+	width:auto;
+	line-height: 40px;
+	display: inline-block;
+}
+#b_g  .bottom .bt_con .right .t_p1 div img{
+	margin-top: 2px;
+}
+#b_g  .bottom .bt_con .right .length{
+	margin-left: 30px;
+}
+#b_g .bottom .bt_bt{
+	height: 30px;
+	width:1000px;
+	position: relative;
+}
+#b_g  .bottom .bt_bt .line{
+	border: 2px solid grey;
+	width: 680px;
+	margin: auto;
+}
+#b_g  .bottom .bt_bt .banquan{
+	width: 250px;
+	text-align: center;
+	font-size: 10px;
+	font-family: "微软雅黑";
+	position: absolute;
+	top: -7px;
+	left: 400px;
+	background: #1e1c1c;
+	color: white;
+}
