@@ -1,4 +1,5 @@
 window.onload=function(){
+	$("body").css({display:"block"});
 	$.noConflict();//释放$符号
 //zoom代码
 //	var wid =document.documentElement.clientWidth;

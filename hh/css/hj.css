@@ -11,6 +11,8 @@ ul,ol,li{
 }
 body{
 	font-family:"微软雅黑";
+	display: none;
+	
 }
 html {font-size: 62.5%;/*10 ÷ 16 × 100% = 62.5%*/}
 body {font-size: 1.4rem;/*1.4 × 10px = 14px */}
@@ -42,7 +44,7 @@ body,html{
 	width: 0px;
 	margin-left: 10px;
 	margin-top: 27px;
-	border-left:1px solid #95B9E6;
+	border-left:2px solid #95B9E6;
 	float: left;
 }
 .introduce{

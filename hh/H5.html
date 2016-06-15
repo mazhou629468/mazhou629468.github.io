@@ -13,12 +13,16 @@
 			var newfs = wid*100/640;
 			var html = document.getElementsByTagName('html')[0];
 			html.style.fontSize = newfs+"px";
+			$("body").css({display:"block"});
+			
 		})
 		$(window).resize(function(){
 		  	var wid = document.documentElement.clientWidth;
 			var newfs = wid*100/640;
 			var html = document.getElementsByTagName('html')[0];
 			html.style.fontSize = newfs+"px";
+			$("body").css({display:"block"});
+			
 		});
 		</script>
 </head>

@@ -12,6 +12,8 @@ ul,ol,li{
 body{
 	font-family:"微软雅黑";
 	font-size: 0.14rem;
+	display: none;
+	
 }
 body,html{
 	width: 100%;
@@ -43,7 +45,7 @@ html{
 	width: 0 rem;
 	margin-left: 0.10rem;
 	margin-top: 0.27rem;
-	border-left:0.01rem solid #95B9E6;
+	border-left:0.02rem solid #95B9E6;
 	float: left;
 }
 .introduce{

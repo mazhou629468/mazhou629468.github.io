@@ -6,6 +6,7 @@ html{
 body{
 	font-family: "微软雅黑";
 	font-size: 0.14rem;
+	display: none;	
 }
 a{
 	text-decoration: none;
@@ -37,7 +38,7 @@ ul,ol,li{
 	height: 0.38rem;
 	margin-left: 0.1rem;
 	margin-top: 0.27rem;
-	border-left:0.01rem solid #95B9E6;
+	border-left:0.02rem solid #95B9E6;
 	float: left;
 }
 .introduce{

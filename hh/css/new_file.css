@@ -12,6 +12,8 @@ ul,ol,li{
 body{
 	font-family:"微软雅黑";
 	font-size: 0.14rem;
+	display: none;
+	
 }
 body,html{
 	width: 100%;

@@ -10,12 +10,16 @@
 			var wid=document.documentElement.clientWidth;
 				var scale=wid/640
 				document.body.style.zoom=scale;
+			$("body").css({display:"block"});
+				
 		})
 		$(window).resize(function(){
 		  	var wid=document.documentElement.clientWidth;
 			var scale=wid/640 
 			// document.body.style.webkitZoom=scale;
 			document.body.style.zoom=scale;
+			$("body").css({display:"block"});
+			
 		});
 	</script>
 	

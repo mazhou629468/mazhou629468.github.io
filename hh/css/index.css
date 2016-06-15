@@ -2,6 +2,9 @@
  	width: 640px;	
  	height: 311px;
  }
+ body{
+ 	display: none;
+ }
 /* //轮播图 */
 	#outer{
 		width: 640px;height: 311px;

@@ -24,6 +24,11 @@
 //	var html = document.getElementsByTagName('html')[0];
 //	html.style.fontSize = newfs+"px";
 //}
+//alert()
+//$(document).ready(function(){
+//	alert()
+//	$(".wrap").css({display:"none"});
+//});
 
 var scrolltotop={
 	setting:{

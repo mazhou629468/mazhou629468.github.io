@@ -14,34 +14,42 @@
 			var wid=document.documentElement.clientWidth;
 				var scale=wid/640
 				document.body.style.zoom=scale;
+			$("body").css({display:"block"});
+				
 		})
 		$(window).resize(function(){
 		  	var wid=document.documentElement.clientWidth;
 			var scale=wid/640 
 			// document.body.style.webkitZoom=scale;
 			document.body.style.zoom=scale;
+			$("body").css({display:"block"});
+			
 		});
 	</script>
 </head>
 <body>
 	<div class="controller">
-		<div class="th-top">
-			<img src="img/博看标题.png" alt="">
-			<div class="top-t">
-				<h3>北京官网</h3>
-				<p>蓝色光标集团旗下企业</p>
+		<div>
+			<div class="header">
+				<a href="index.html"><img class="logo" src="img/logo.png"></a>
+				<div class="verticalLine"></div>
+				<div class="introduce">
+					<p ><a href="###" class="beingWeb">北京官网</a></p>
+					<p ><a href="###" class="company" >蓝色光标集团旗下企业</a></p>
+				</div>
 			</div>
-		</div>
-		<div class="th-nav">
-			<ul>
-				<li><a href="index.html">首页</a></li>
-				<li><a href="course.html">课程</a></li>
-				<li><a href="jiuye.html">就业</a></li>
-				<li><a href="teachers.html" class="th-sele">师资</a></li>
-				<li><a href="hj.html">环境</a></li>
-				<li><a href="us.html">我们</a></li>
-			</ul>
-		</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="course.html">课程</a></li>
+					<li><a href="jiuye.html">就业</a></li>
+					<li class="current"><a href="teachers.html">师资</a></li>
+					<li><a href="hj.html">环境</a></li>
+					<li><a href="us.html">我们</a></li>
+				</ul>
+			</div>
+		</div>		
+		<!-- 导航 end-->
 		<div class="content">
 			<h2 class="cont-title">移动开发名师</h2>
 			<dl class="famous famous01">

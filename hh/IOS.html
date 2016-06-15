@@ -14,12 +14,16 @@
 		var newfs = wid*100/640;
 		var html = document.getElementsByTagName('html')[0];
 		html.style.fontSize = newfs+"px";
+		$(".wrap").css({display:"block"});
+		
 	})
 	$(window).resize(function(){
 	  	var wid = document.documentElement.clientWidth;
 		var newfs = wid*100/640;
 		var html = document.getElementsByTagName('html')[0];
 		html.style.fontSize = newfs+"px";
+		$(".wrap").css({display:"block"});
+		
 	});
 	</script>
 </head>
@@ -42,7 +46,7 @@
 				<li><a href="UI.html">UI</a></li>
 			</ul>
 		</div>
-	</div>
+	
 	<div class="prospect">
 		<div class="title_1">
 			<p class="line1"></p>
@@ -235,6 +239,6 @@
 		<a href="#" class="qq"><img src="img/zx-qq.png"></a>
 	</div>
 	
-
+</div>
 </body>
 </html>

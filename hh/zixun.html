@@ -13,12 +13,16 @@
 			var newfs = wid*100/640;
 			var html = document.getElementsByTagName('html')[0];
 			html.style.fontSize = newfs+"px";
+			$("body").css({display:"block"});
+			
 		})
 		$(window).resize(function(){
 		  	var wid = document.documentElement.clientWidth;
 			var newfs = wid*100/640;
 			var html = document.getElementsByTagName('html')[0];
 			html.style.fontSize = newfs+"px";
+			$("body").css({display:"block"});
+			
 		});
 		</script>
 </head>
@@ -39,7 +43,7 @@
 					<li><a href="index.html">首页</a></li>
 					<li><a href="course.html">课程</a></li>
 					<li><a href="jiuye.html">就业</a></li>
-					<li ><a href="teacherDetail.html">师资</a></li>
+					<li ><a href="teachers.html">师资</a></li>
 					<li class="current"><a href="zixun.html">资讯</a></li>
 					<li><a href="us.html">我们</a></li>
 				</ul>
